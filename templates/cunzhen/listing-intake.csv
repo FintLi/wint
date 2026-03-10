@@ -1,0 +1,2 @@
+listing_id,created_at,village,area_band,room_type,monthly_rent,deposit_rule,utility_rule,floor_label,sunlight,elevator,furniture_appliances,move_in_date,last_verified_at,video_url,source_role,source_channel,status,verification_owner,auth_flag,notes
+L-001,2026-03-09,示例村,西乡,单间,1200,押一付一,水8电1.5,5楼,朝南一般,无,床/空调/热水器,2026-03-12,2026-03-09T10:00:00+08:00,https://example.com/video-001,合作中介,私信,待核验,Simon,待认证,示例数据

@@ -1,0 +1,69 @@
+#!/usr/bin/env expect
+
+set timeout 90
+
+if {![info exists env(VPS_HOST)] || $env(VPS_HOST) eq ""} {
+    send_user "VPS_HOST is required\n"
+    exit 2
+}
+
+set host $env(VPS_HOST)
+set user "root"
+if {[info exists env(VPS_USER)] && $env(VPS_USER) ne ""} {
+    set user $env(VPS_USER)
+}
+
+set password ""
+if {[info exists env(VPS_PASSWORD)]} {
+    set password $env(VPS_PASSWORD)
+}
+
+set remote_cmd {echo ---SYSTEM---;
+hostname;
+uname -a;
+cat /etc/os-release;
+echo ---OPENCLAW---;
+command -v openclaw || true;
+openclaw --version 2>/dev/null || true;
+python3 --version;
+echo ---GATEWAY---;
+systemctl --user status openclaw-gateway 2>/dev/null | sed -n '1,40p' || true;
+echo ---GATEWAY-UNIT---;
+sed -E 's#^(Environment=OPENCLAW_GATEWAY_TOKEN=).*#\1[REDACTED]#' /root/.config/systemd/user/openclaw-gateway.service 2>/dev/null | sed -n '1,120p' || true;
+echo ---OPENCLAW-FILES---;
+find /root/.openclaw -maxdepth 2 -type f 2>/dev/null | sed -n '1,80p';
+echo ---FIRSTSTAND-ENV---;
+sed -E 's#^(FEISHU_WEBHOOK=).*#\1[REDACTED]#' /etc/openclaw-firststand.env 2>/dev/null || true;
+echo ---FIRSTSTAND-WRAPPERS---;
+sed -n '1,120p' /usr/local/bin/openclaw-firststand-feishu 2>/dev/null || true;
+echo ---;
+sed -n '1,120p' /usr/local/bin/openclaw-firststand-prematch 2>/dev/null || true;
+echo ---FIRSTSTAND-CRON---;
+sed -n '1,120p' /etc/cron.d/openclaw-firststand-feishu 2>/dev/null || true;
+echo ---FIRSTSTAND-STATE---;
+ls -lt /var/lib/openclaw-firststand 2>/dev/null | head -n 20;
+echo ---FIRSTSTAND-LOGS---;
+ls -l /var/log/openclaw-firststand* 2>/dev/null || true;
+echo ---CLIPROXYAPI---;
+/usr/local/bin/CLIProxyAPI --version 2>/dev/null || true;
+ps -ef | grep -i cli-proxy-api | grep -v grep || true;
+find /etc/cliproxyapi /opt/cliproxyapi -maxdepth 3 \( -name 'config*.yaml' -o -name 'config*.yml' \) 2>/dev/null | sed -n '1,80p';
+systemctl list-unit-files 2>/dev/null | grep -i cli-proxy || true;
+echo ---DONE---}
+
+spawn ssh -o StrictHostKeyChecking=no ${user}@${host} bash -lc $remote_cmd
+expect {
+    -re ".*yes/no.*" {
+        send "yes\r"
+        exp_continue
+    }
+    -re ".*assword:.*" {
+        if {$password eq ""} {
+            send_user "VPS_PASSWORD is required because SSH requested a password.\n"
+            exit 3
+        }
+        send "$password\r"
+        exp_continue
+    }
+    eof
+}

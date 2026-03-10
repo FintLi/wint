@@ -1,0 +1,5 @@
+button {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+}

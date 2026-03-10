@@ -1,0 +1,362 @@
+[
+  {
+    "msg_type": "interactive",
+    "card": {
+      "config": {
+        "wide_screen_mode": true,
+        "enable_forward": true
+      },
+      "header": {
+        "template": "blue",
+        "title": {
+          "tag": "plain_text",
+          "content": "Enabling Gemini for Education across all Malaysian public…"
+        }
+      },
+      "elements": [
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "AI圈晨报 01/06｜官方｜Google Blog｜2026-03-09 02:00"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "lark_md",
+            "content": "**Enabling Gemini for Education across all Malaysian public universities**\n\nGemini for Education is now in all 20 Malaysian public universities, reaching 600,000 students and 75,000 faculty members."
+          }
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "action",
+          "actions": [
+            {
+              "tag": "button",
+              "text": {
+                "tag": "plain_text",
+                "content": "查看原文"
+              },
+              "type": "default",
+              "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/gemini-malaysia-universities"
+            }
+          ]
+        },
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "窗口 03-08 08:00 → 03-09 08:00"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "msg_type": "interactive",
+    "card": {
+      "config": {
+        "wide_screen_mode": true,
+        "enable_forward": true
+      },
+      "header": {
+        "template": "purple",
+        "title": {
+          "tag": "plain_text",
+          "content": "Owner of ICE detention facility sees big opportunity in A…"
+        }
+      },
+      "elements": [
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "AI圈晨报 02/06｜可靠媒体｜TechCrunch AI｜2026-03-09 00:30"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "lark_md",
+            "content": "**Owner of ICE detention facility sees big opportunity in AI man camps**\n\nAI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields."
+          }
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "action",
+          "actions": [
+            {
+              "tag": "button",
+              "text": {
+                "tag": "plain_text",
+                "content": "查看原文"
+              },
+              "type": "default",
+              "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps"
+            }
+          ]
+        },
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "窗口 03-08 08:00 → 03-09 08:00"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "msg_type": "interactive",
+    "card": {
+      "config": {
+        "wide_screen_mode": true,
+        "enable_forward": true
+      },
+      "header": {
+        "template": "purple",
+        "title": {
+          "tag": "plain_text",
+          "content": "Will the Pentagon’s Anthropic controversy scare startups …"
+        }
+      },
+      "elements": [
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "AI圈晨报 03/06｜可靠媒体｜TechCrunch AI｜2026-03-09 04:14"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "lark_md",
+            "content": "**Will the Pentagon’s Anthropic controversy scare startups away from defense work?**\n\nOn the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government."
+          }
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "action",
+          "actions": [
+            {
+              "tag": "button",
+              "text": {
+                "tag": "plain_text",
+                "content": "查看原文"
+              },
+              "type": "default",
+              "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work"
+            }
+          ]
+        },
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "窗口 03-08 08:00 → 03-09 08:00"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "msg_type": "interactive",
+    "card": {
+      "config": {
+        "wide_screen_mode": true,
+        "enable_forward": true
+      },
+      "header": {
+        "template": "purple",
+        "title": {
+          "tag": "plain_text",
+          "content": "A roadmap for AI, if anyone will listen"
+        }
+      },
+      "elements": [
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "AI圈晨报 04/06｜可靠媒体｜TechCrunch AI｜2026-03-08 14:05"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "lark_md",
+            "content": "**A roadmap for AI, if anyone will listen**\n\nThe Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved."
+          }
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "action",
+          "actions": [
+            {
+              "tag": "button",
+              "text": {
+                "tag": "plain_text",
+                "content": "查看原文"
+              },
+              "type": "default",
+              "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen"
+            }
+          ]
+        },
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "窗口 03-08 08:00 → 03-09 08:00"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "msg_type": "interactive",
+    "card": {
+      "config": {
+        "wide_screen_mode": true,
+        "enable_forward": true
+      },
+      "header": {
+        "template": "purple",
+        "title": {
+          "tag": "plain_text",
+          "content": "OpenAI's robotics hardware lead resigns following deal wi…"
+        }
+      },
+      "elements": [
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "AI圈晨报 05/06｜可靠媒体｜Engadget｜2026-03-08 22:44"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "lark_md",
+            "content": "**OpenAI's robotics hardware lead resigns following deal with the Department of Defense**\n\nOpenAI 's robotics hardware lead is out. Caitlin Kalinowski, who oversaw hardware within the robotics division of OpenAI, posted on X that she was resigning from her role, while..."
+          }
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "action",
+          "actions": [
+            {
+              "tag": "button",
+              "text": {
+                "tag": "plain_text",
+                "content": "查看原文"
+              },
+              "type": "default",
+              "url": "https://engadget.com/ai/openais-robotics-hardware-lead-resigns-following-deal-with-the-department-of-defense-195918599.html"
+            }
+          ]
+        },
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "窗口 03-08 08:00 → 03-09 08:00"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "msg_type": "interactive",
+    "card": {
+      "config": {
+        "wide_screen_mode": true,
+        "enable_forward": true
+      },
+      "header": {
+        "template": "purple",
+        "title": {
+          "tag": "plain_text",
+          "content": "Google just gave Sundar Pichai a $692M pay package"
+        }
+      },
+      "elements": [
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "AI圈晨报 06/06｜可靠媒体｜TechCrunch AI｜2026-03-08 08:20"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "lark_md",
+            "content": "**Google just gave Sundar Pichai a $692M pay package**\n\nMost of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture."
+          }
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "action",
+          "actions": [
+            {
+              "tag": "button",
+              "text": {
+                "tag": "plain_text",
+                "content": "查看原文"
+              },
+              "type": "default",
+              "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package"
+            }
+          ]
+        },
+        {
+          "tag": "note",
+          "elements": [
+            {
+              "tag": "plain_text",
+              "content": "窗口 03-08 08:00 → 03-09 08:00"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

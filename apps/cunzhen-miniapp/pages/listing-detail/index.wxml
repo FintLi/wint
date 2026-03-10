@@ -1,0 +1,48 @@
+<view class="container" wx:if="{{listing}}">
+  <view class="card hero-card">
+    <view class="title">{{listing.title}}</view>
+    <view class="subtitle">{{listing.village}} · {{listing.roomType}} · {{listing.rentLabel}}</view>
+    <view class="wrap" style="margin-top: 20rpx;">
+      <view class="chip">{{listing.verificationLabel}}</view>
+      <view class="chip">{{listing.authFlag}}</view>
+      <view class="chip">{{listing.versionLabel}}</view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">核心信息</view>
+    <view class="meta-text">租金：{{listing.rentLabel}}</view>
+    <view class="meta-text">押付方式：{{listing.depositRule}}</view>
+    <view class="meta-text">水电规则：{{listing.utilityRule}}</view>
+    <view class="meta-text">楼层 / 采光：{{listing.floorLabel}} · {{listing.sunlight}}</view>
+    <view class="meta-text">电梯：{{listing.elevator}}</view>
+    <view class="meta-text">家具家电：{{listing.furnitureAppliances}}</view>
+    <view class="meta-text">可入住时间：{{listing.moveInDate}}</view>
+    <view class="meta-text">最近核验：{{listing.verifiedLabel}}</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">避坑与通勤标签</view>
+    <view class="wrap">
+      <block wx:for="{{listing.safetyTags}}" wx:key="*this">
+        <view class="chip chip-muted">{{item}}</view>
+      </block>
+      <block wx:for="{{listing.commuteTags}}" wx:key="*this">
+        <view class="chip">{{item}}</view>
+      </block>
+    </view>
+    <view class="meta-text" style="margin-top: 12rpx;">备注：{{listing.notes}}</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">视频与下一步</view>
+    <view class="meta-text">实拍视频链接：{{listing.videoUrl}}</view>
+    <view class="row" style="margin-top: 20rpx;">
+      <button class="btn-secondary" bindtap="copyVideoUrl">复制视频链接</button>
+      <button class="btn-primary" bindtap="goViewing">预约看房</button>
+    </view>
+    <view class="row" style="margin-top: 16rpx;">
+      <button class="btn-ghost" bindtap="goDemandForm">提交求租卡，配 3 套同类房源</button>
+    </view>
+  </view>
+</view>

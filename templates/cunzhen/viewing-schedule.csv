@@ -1,0 +1,2 @@
+appointment_id,date,time_slot,lead_id,listing_id,contact_name,contact_phone,status,no_show_reason,deal_amount,partner_name,service_fee,settlement_status,notes
+A-001,2026-03-12,19:30-20:30,Q-001,L-001,示例租客,13800000000,待确认,,0,示例合作方,0,未结算,示例数据

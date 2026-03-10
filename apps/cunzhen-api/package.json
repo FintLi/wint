@@ -1,0 +1,10 @@
+{
+  "name": "cunzhen-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Lightweight API for the Cunzhen mini-program MVP",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}

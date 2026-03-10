@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/listings/index",
+    "pages/listing-detail/index",
+    "pages/demand-form/index",
+    "pages/viewing-booking/index",
+    "pages/supply-form/index",
+    "pages/admin/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "村圳",
+    "navigationBarBackgroundColor": "#0f172a",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f8fafc",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#64748b",
+    "selectedColor": "#2563eb",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/listings/index",
+        "text": "找房"
+      },
+      {
+        "pagePath": "pages/demand-form/index",
+        "text": "求租"
+      },
+      {
+        "pagePath": "pages/admin/index",
+        "text": "运营"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

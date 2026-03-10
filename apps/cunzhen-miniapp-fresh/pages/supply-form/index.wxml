@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="notice">v1 不开放全民发布，只接受合作方提交完整资料后进入审核池。</view>
+
+  <view class="form-section">
+    <view class="form-label">房源标题</view>
+    <input class="input" value="{{form.title}}" data-field="title" bindinput="onInput" placeholder="例如：西乡地铁通勤友好单间" />
+
+    <view class="form-label" style="margin-top: 16rpx;">村名 / 片区 *</view>
+    <input class="input" value="{{form.village}}" data-field="village" bindinput="onInput" placeholder="例如：福永白石厦" />
+
+    <view class="form-label" style="margin-top: 16rpx;">区域带 *</view>
+    <input class="input" value="{{form.areaBand}}" data-field="areaBand" bindinput="onInput" placeholder="西乡 / 固戍 / 后瑞 / 福永" />
+
+    <view class="form-label" style="margin-top: 16rpx;">房型 *</view>
+    <input class="input" value="{{form.roomType}}" data-field="roomType" bindinput="onInput" placeholder="单间 / 合租 / 一房" />
+
+    <view class="form-label" style="margin-top: 16rpx;">租金 *</view>
+    <input class="input" type="number" value="{{form.monthlyRent}}" data-field="monthlyRent" bindinput="onInput" />
+
+    <view class="form-label" style="margin-top: 16rpx;">押付方式 *</view>
+    <input class="input" value="{{form.depositRule}}" data-field="depositRule" bindinput="onInput" />
+
+    <view class="form-label" style="margin-top: 16rpx;">水电规则 *</view>
+    <input class="input" value="{{form.utilityRule}}" data-field="utilityRule" bindinput="onInput" placeholder="例如：水8电1.5，卫生费 30" />
+
+    <view class="form-label" style="margin-top: 16rpx;">楼层 / 采光 / 电梯</view>
+    <input class="input" value="{{form.floorLabel}}" data-field="floorLabel" bindinput="onInput" placeholder="例如：4楼" />
+    <input class="input" style="margin-top: 12rpx;" value="{{form.sunlight}}" data-field="sunlight" bindinput="onInput" placeholder="例如：朝南，采光较好" />
+    <input class="input" style="margin-top: 12rpx;" value="{{form.elevator}}" data-field="elevator" bindinput="onInput" placeholder="有 / 无" />
+
+    <view class="form-label" style="margin-top: 16rpx;">家具家电</view>
+    <textarea class="textarea" value="{{form.furnitureAppliances}}" data-field="furnitureAppliances" bindinput="onInput" placeholder="床、空调、洗衣机等" />
+
+    <view class="form-label" style="margin-top: 16rpx;">可入住时间</view>
+    <picker class="picker" mode="date" value="{{form.moveInDate}}" bindchange="onDateChange">
+      <view>{{form.moveInDate}}</view>
+    </picker>
+
+    <view class="form-label" style="margin-top: 16rpx;">视频链接 *</view>
+    <input class="input" value="{{form.videoUrl}}" data-field="videoUrl" bindinput="onInput" placeholder="可先贴网盘或短链" />
+
+    <view class="form-label" style="margin-top: 16rpx;">联系人身份 / 联系方式</view>
+    <input class="input" value="{{form.sourceRole}}" data-field="sourceRole" bindinput="onInput" placeholder="房东 / 中介 / 二房东 / 拍房员" />
+    <input class="input" style="margin-top: 12rpx;" value="{{form.contact}}" data-field="contact" bindinput="onInput" placeholder="微信或手机号" />
+
+    <view class="form-label" style="margin-top: 16rpx;">补充说明</view>
+    <textarea class="textarea" value="{{form.notes}}" data-field="notes" bindinput="onInput" placeholder="例如：女生友好、夜路较稳、可集中带看" />
+  </view>
+
+  <button class="btn-primary" bindtap="submitSupply">提交待审核房源</button>
+</view>

@@ -1,0 +1,878 @@
+{
+  "source_bookmarks_file": "/Users/fint/Public/projects/wint/playground/chrome_bookmarks_backups/Bookmarks.20260306-174246.bak",
+  "target_bookmarks_file": "/Users/fint/Library/Application Support/Google/Chrome/Profile 1/Bookmarks",
+  "bookmark_count": 850,
+  "unique_url_count": 640,
+  "status_summary": {
+    "skipped": 22,
+    "dead": 50,
+    "unreachable": 67,
+    "alive": 501
+  },
+  "top_level_summary": {
+    "网站抓取与自动化": 187,
+    "开发编程": 163,
+    "数据分析与数据工程": 109,
+    "工作与项目": 102,
+    "待整理": 59,
+    "学习资料与课程": 59,
+    "网站开发": 49,
+    "社区资讯与内容": 23,
+    "数据与数据库": 21,
+    "人工智能与机器学习": 19,
+    "杂项与灵感": 17,
+    "系统与运维": 14,
+    "生活工具与设备": 11,
+    "服务与账号": 11,
+    "个人站点与收藏": 6
+  },
+  "second_level_summary": {
+    "开发编程 / Python 开发与脚本": 115,
+    "网站抓取与自动化 / 网页抓取与采集": 110,
+    "数据分析与数据工程 / 数据分析与可视化": 90,
+    "网站抓取与自动化 / Scrapy 与抓取框架": 73,
+    "待整理 / 待人工复核": 59,
+    "工作与项目 / 业务系统与协作": 58,
+    "学习资料与课程 / 在线课程与练习": 44,
+    "工作与项目 / Typhur 相关": 42,
+    "开发编程 / 通用编程基础": 38,
+    "网站开发 / 通用网页开发": 25,
+    "数据与数据库 / 数据库与存储": 21,
+    "数据分析与数据工程 / 大数据与计算框架": 19,
+    "网站开发 / 前端与界面": 18,
+    "杂项与灵感 / 有趣与启发": 17,
+    "学习资料与课程 / 书籍与长文": 15,
+    "人工智能与机器学习 / 机器学习": 14,
+    "社区资讯与内容 / 博客文章与专栏": 12,
+    "服务与账号 / VPS 与主机": 11,
+    "社区资讯与内容 / 技术社区与问答": 10,
+    "系统与运维 / Linux 与系统": 10,
+    "开发编程 / 文本处理与正则": 10,
+    "网站开发 / 后端与接口": 6,
+    "个人站点与收藏 / 个人站点与博客": 6,
+    "人工智能与机器学习 / 大模型与智能体": 5,
+    "生活工具与设备 / 影音娱乐": 4,
+    "网站抓取与自动化 / 反爬与代理": 3,
+    "系统与运维 / 网络与安全": 3,
+    "生活工具与设备 / 智能家居": 3,
+    "生活工具与设备 / 购物与消费": 2,
+    "生活工具与设备 / 城市与本地信息": 2,
+    "工作与项目 / Parlant 相关": 2,
+    "社区资讯与内容 / 新闻与资讯": 1,
+    "系统与运维 / 容器与部署": 1,
+    "网站抓取与自动化 / 浏览器自动化": 1
+  },
+  "third_level_summary": {
+    "开发编程 / Python 开发与脚本 / 语言基础与常用库": 115,
+    "网站抓取与自动化 / 网页抓取与采集 / 抓取案例与经验": 110,
+    "数据分析与数据工程 / 数据分析与可视化 / 数据分析实践": 77,
+    "网站抓取与自动化 / Scrapy 与抓取框架 / Scrapy 实战": 73,
+    "待整理 / 待人工复核 / 待后续细分": 59,
+    "工作与项目 / Typhur 相关 / 业务系统与协作": 42,
+    "开发编程 / 通用编程基础 / 编程基础与通用技巧": 38,
+    "工作与项目 / 业务系统与协作 / 项目工作台": 24,
+    "网站开发 / 通用网页开发 / 通用网页开发": 23,
+    "学习资料与课程 / 在线课程与练习 / 在线课程与练习": 22,
+    "工作与项目 / 业务系统与协作 / 飞书文档与协作": 19,
+    "数据与数据库 / 数据库与存储 / 关系型数据库": 18,
+    "学习资料与课程 / 在线课程与练习 / 课程与教程": 17,
+    "杂项与灵感 / 有趣与启发 / 灵感与杂读": 17,
+    "数据分析与数据工程 / 大数据与计算框架 / Spark / Impala / Java": 15,
+    "人工智能与机器学习 / 机器学习 / 机器学习方法": 13,
+    "网站开发 / 前端与界面 / TypeScript 与 JavaScript": 13,
+    "学习资料与课程 / 书籍与长文 / 书单与电子书": 13,
+    "服务与账号 / VPS 与主机 / 云主机面板与购买": 11,
+    "社区资讯与内容 / 技术社区与问答 / 知乎与问答讨论": 10,
+    "系统与运维 / Linux 与系统 / Linux 命令与系统原理": 10,
+    "工作与项目 / 业务系统与协作 / 电商运营与评论数据": 10,
+    "开发编程 / 文本处理与正则 / 正则表达式": 10,
+    "数据分析与数据工程 / 数据分析与可视化 / Jupyter 与 Notebook": 10,
+    "个人站点与收藏 / 个人站点与博客 / 独立站点与博客": 6,
+    "社区资讯与内容 / 博客文章与专栏 / CSDN 文章": 5,
+    "学习资料与课程 / 在线课程与练习 / 刷题与练习": 5,
+    "数据分析与数据工程 / 大数据与计算框架 / 大数据实践": 4,
+    "社区资讯与内容 / 博客文章与专栏 / 技术博客": 4,
+    "人工智能与机器学习 / 大模型与智能体 / 模型平台与 API": 4,
+    "工作与项目 / 业务系统与协作 / 接口文档与代码平台": 4,
+    "网站抓取与自动化 / 反爬与代理 / 代理与反爬处理": 3,
+    "生活工具与设备 / 影音娱乐 / 视频与下载资源": 3,
+    "网站开发 / 前端与界面 / 页面设计与实现": 3,
+    "网站开发 / 后端与接口 / Python Web 服务": 3,
+    "生活工具与设备 / 智能家居 / 智能家居设备": 3,
+    "网站开发 / 通用网页开发 / 官方文档与规范": 2,
+    "数据分析与数据工程 / 数据分析与可视化 / Pandas 与数据处理": 2,
+    "生活工具与设备 / 购物与消费 / 电商购物": 2,
+    "社区资讯与内容 / 博客文章与专栏 / 博客园文章": 2,
+    "网站开发 / 前端与界面 / HTML / CSS 布局": 2,
+    "生活工具与设备 / 城市与本地信息 / 深圳房产与租住": 2,
+    "系统与运维 / 网络与安全 / 安全与代理": 2,
+    "网站开发 / 后端与接口 / 接口设计与调试": 2,
+    "工作与项目 / Parlant 相关 / 文档与接入": 2,
+    "社区资讯与内容 / 新闻与资讯 / 新闻报道": 1,
+    "学习资料与课程 / 书籍与长文 / 电子书与资料库": 1,
+    "网站开发 / 后端与接口 / 后端接口与服务": 1,
+    "工作与项目 / 业务系统与协作 / 自动化流程与表单": 1,
+    "人工智能与机器学习 / 机器学习 / 论文与研究": 1,
+    "系统与运维 / 容器与部署 / Docker / Kubernetes": 1,
+    "数据分析与数据工程 / 数据分析与可视化 / 图表与可视化": 1,
+    "数据与数据库 / 数据库与存储 / SQL 与关系型数据库": 1,
+    "数据与数据库 / 数据库与存储 / 检索与分析型存储": 1,
+    "社区资讯与内容 / 博客文章与专栏 / 简书文章": 1,
+    "系统与运维 / 网络与安全 / 代理与网络安全": 1,
+    "网站抓取与自动化 / 浏览器自动化 / 登录与浏览器控制": 1,
+    "数据与数据库 / 数据库与存储 / MySQL": 1,
+    "人工智能与机器学习 / 大模型与智能体 / RAG 与检索增强": 1,
+    "学习资料与课程 / 书籍与长文 / 长文与人文阅读": 1,
+    "生活工具与设备 / 影音娱乐 / 视频与播放列表": 1
+  },
+  "dead_bookmarks": [
+    {
+      "title": "20221120_210359",
+      "url": "https://rws8tm5bvm.feishu.cn/minutes/obcnpx78ff18q8s872o62xqo",
+      "path": "书签栏 / 一本道 / 20221120_210359",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "地球物理相关软件 | SeisMan",
+      "url": "http://seisman.info/geo-software.html",
+      "path": "书签栏 / 二仙桥 / 地球物理相关软件 | SeisMan",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "待整理",
+        "待人工复核",
+        "待后续细分"
+      ]
+    },
+    {
+      "title": "深圳市房地产信息系统",
+      "url": "http://zjj.sz.gov.cn/ris/szfdc/mls/index.aspx",
+      "path": "书签栏 / 三花聚顶 / 村圳 / 深圳市房地产信息系统",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "生活工具与设备",
+        "城市与本地信息",
+        "深圳房产与租住"
+      ]
+    },
+    {
+      "title": "Crawlab",
+      "url": "https://crawlab.data.typhur.com/#/home",
+      "path": "书签栏 / 四张四弛 / 四张 / Crawlab",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "项目工作台"
+      ]
+    },
+    {
+      "title": "专栏：Python 也可以 - 博客频道 - CSDN.NET",
+      "url": "http://blog.csdn.net/column/details/python-can.html",
+      "path": "书签栏 / 四张四弛 / 四张 / Programming / 专栏：Python 也可以 - 博客频道 - CSDN.NET",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "通用编程基础",
+        "编程基础与通用技巧"
+      ]
+    },
+    {
+      "title": "一步步用python制作游戏外挂【转】 - 小さいです哥 - 博客园",
+      "url": "http://www.cnblogs.com/xsmhero/archive/2013/01/03/2842973.html",
+      "path": "书签栏 / 四张四弛 / 四张 / Programming / 一步步用python制作游戏外挂【转】 - 小さいです哥 - 博客园",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "通用编程基础",
+        "编程基础与通用技巧"
+      ]
+    },
+    {
+      "title": "Python to batch generate QR codes | Dynamic Planning and Science",
+      "url": "http://dynamicplanning.co/projects/python-to-batch-generate-qr-codes/",
+      "path": "书签栏 / 四张四弛 / 四张 / Programming / Python to batch generate QR codes | Dynamic Planning and Science",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "通用编程基础",
+        "编程基础与通用技巧"
+      ]
+    },
+    {
+      "title": "Python全部 - 课程 - 实验楼",
+      "url": "https://www.shiyanlou.com/courses/?course_type=all&tag=Python",
+      "path": "书签栏 / 四张四弛 / 四张 / Programming / Python全部 - 课程 - 实验楼",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "通用编程基础",
+        "编程基础与通用技巧"
+      ]
+    },
+    {
+      "title": "win32com: Trouble using Excel's \"SaveAs\" method for Workbooks and Worksheet objects « python-list « ActiveState List Archives",
+      "url": "http://code.activestate.com/lists/python-list/%3c39DB0C30.676823C2@adtranzsig.de%3e/",
+      "path": "书签栏 / 四张四弛 / 四张 / Programming / win32com: Trouble using Excel's \"SaveAs\" method for Workbooks and Worksheet objects « python-list « ActiveState List Archives",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "通用编程基础",
+        "编程基础与通用技巧"
+      ]
+    },
+    {
+      "title": "PPV课-大数据在线学习社区-国内领先的大数据职业教育平台",
+      "url": "http://www.ppvke.com/",
+      "path": "书签栏 / 四张四弛 / 四张 / Bigdata / PPV课-大数据在线学习社区-国内领先的大数据职业教育平台",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "大数据与计算框架",
+        "大数据实践"
+      ]
+    },
+    {
+      "title": "100套数据分析英文秘籍 - PPV课社区",
+      "url": "http://www.ppvke.com/Answer/question/26043",
+      "path": "书签栏 / 四张四弛 / 四张 / Bigdata / 100套数据分析英文秘籍 - PPV课社区",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "大数据与计算框架",
+        "大数据实践"
+      ]
+    },
+    {
+      "title": "vps.ukong.fun – 入站列表",
+      "url": "https://vps.ukong.fun:5734/Glg85bi3s1KfLNZE3F/panel/inbounds",
+      "path": "书签栏 / 七进七出 / 七出 / vps.ukong.fun – 入站列表",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "服务与账号",
+        "VPS 与主机",
+        "云主机面板与购买"
+      ]
+    },
+    {
+      "title": "消息卡片搭建工具 - 飞书开放平台",
+      "url": "https://open.feishu.cn/tool/cardbuilder?from=custom_bot_doc&templateId=ctp_AAglmbt4z8SK",
+      "path": "书签栏 / 剑荡八荒 / typhur / 消息卡片搭建工具 - 飞书开放平台",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "⁡‬﻿​​⁢​​‬‬​⁡​⁡​‌‬⁡​⁢‌‍​‌⁢⁡﻿﻿‬​⁡﻿⁣​⁢​⁣﻿⁡﻿‍‌⁤⁢⁢⁡⁣​⁡数据部-工作清单-Derrick - 飞书云文档",
+      "url": "https://typhur-oa.feishu.cn/sheets/TR2qsPxIGhgJTht4USpcD0VJnhg?table=tblU18OQMKzP7xsy&view=vewJwnLkBv",
+      "path": "书签栏 / 剑荡八荒 / typhur / ⁡‬﻿​​⁢​​‬‬​⁡​⁡​‌‬⁡​⁢‌‍​‌⁢⁡﻿﻿‬​⁡﻿⁣​⁢​⁣﻿⁡﻿‍‌⁤⁢⁢⁡⁣​⁡数据部-工作清单-Derrick - 飞书云文档",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "‌‬​‍‌‬‬​⁣⁢⁤‌‌﻿‌‬⁤⁣﻿⁤﻿‌⁡⁢⁤​​⁢‍﻿‌⁤⁢‍​⁣​⁣⁡​​‬⁢​‌﻿​‌⁡​email_enrich表结构明细 - 飞书云文档",
+      "url": "https://typhur-oa.feishu.cn/sheets/LYZCsvO6th1WgztWyGccWqnpnx1?sheet=1yxjKy",
+      "path": "书签栏 / 剑荡八荒 / typhur / ‌‬​‍‌‬‬​⁣⁢⁤‌‌﻿‌‬⁤⁣﻿⁤﻿‌⁡⁢⁤​​⁢‍﻿‌⁤⁢‍​⁣​⁣⁡​​‬⁢​‌﻿​‌⁡​email_enrich表结构明细 - 飞书云文档",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "组件概述 - 开发指南 - 开发文档 - 飞书开放平台",
+      "url": "https://open.feishu.cn/document/ukTMukTMukTM/uYzM3QjL2MzN04iNzcDN/component-list/component-overview",
+      "path": "书签栏 / 剑荡八荒 / typhur / 组件概述 - 开发指南 - 开发文档 - 飞书开放平台",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "⁣‬﻿​​⁢⁤‍﻿‍​﻿⁣⁢﻿‌⁢‌​​﻿‬‌‍‌⁢‍⁣​﻿‌‍‬‍﻿‍⁡‍﻿‬‍﻿⁣⁢⁡​‍⁤‬source_mapping - 飞书云文档",
+      "url": "https://typhur-oa.feishu.cn/sheets/KfsjsOTDShXrLdtNgLucigrtned?sheet=yIolt7",
+      "path": "书签栏 / 剑荡八荒 / typhur / ⁣‬﻿​​⁢⁤‍﻿‍​﻿⁣⁢﻿‌⁢‌​​﻿‬‌‍‌⁢‍⁣​﻿‌‍‬‍﻿‍⁡‍﻿‬‍﻿⁣⁢⁡​‍⁤‬source_mapping - 飞书云文档",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "Sheet",
+      "url": "https://typhur-oa.feishu.cn/sheets/BNwQsc7zxhODRstj3NCcgpDynwd",
+      "path": "书签栏 / 剑荡八荒 / typhur / Sheet",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "‍‬​﻿⁣​⁣⁤​⁤‌⁡﻿​⁣⁢﻿⁣⁢​⁢‬‍​﻿⁣⁣‌‍⁣⁤​⁢‍⁤‍‬⁣⁤⁣‍﻿⁢﻿⁡⁢⁡⁡⁢亚马逊运营PDCA表-欧洲站 - 飞书云文档",
+      "url": "https://typhur-oa.feishu.cn/sheets/NfFvsA31LhTdzxtHIrUcHGLdn4g?sheet=355LRw",
+      "path": "书签栏 / 剑荡八荒 / ‍‬​﻿⁣​⁣⁤​⁤‌⁡﻿​⁣⁢﻿⁣⁢​⁢‬‍​﻿⁣⁣‌‍⁣⁤​⁢‍⁤‍‬⁣⁤⁣‍﻿⁢﻿⁡⁢⁡⁡⁢亚马逊运营PDCA表-欧洲站 - 飞书云文档",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "⁣​‍⁤⁤​⁢⁢⁣⁢⁤⁤⁢⁤﻿‍‬‌​‌‍​​⁢⁤‌⁤​​​⁢⁤‍⁢​​⁢​⁣⁡‬​‬‍﻿​​‍﻿亚马逊运营PDCA表 - 飞书云文档",
+      "url": "https://typhur-oa.feishu.cn/sheets/YfZUsbZNFh03RUteS3Zc1uDsnne?sheet=355LRw",
+      "path": "书签栏 / 剑荡八荒 / ⁣​‍⁤⁤​⁢⁢⁣⁢⁤⁤⁢⁤﻿‍‬‌​‌‍​​⁢⁤‌⁤​​​⁢⁤‍⁢​​⁢​⁣⁡‬​‬‍﻿​​‍﻿亚马逊运营PDCA表 - 飞书云文档",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "飞书卡片搭建工具",
+      "url": "https://open.feishu.cn/cardkit/editor?cardId=AAqBigYE1wzRe",
+      "path": "书签栏 / 飞书卡片搭建工具",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "工作与项目",
+        "业务系统与协作",
+        "飞书文档与协作"
+      ]
+    },
+    {
+      "title": "How to extract data from MS Word Documents using Python",
+      "url": "https://towardsdatascience.com/how-to-extract-data-from-ms-word-documents-using-python-ed3fbb48c122",
+      "path": "其他书签 / PythonLanguage / How to extract data from MS Word Documents using Python",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "pandas_profiling API documentation",
+      "url": "https://pandas-profiling.github.io/pandas-profiling/docs/",
+      "path": "其他书签 / PythonLanguage / pandas_profiling API documentation",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "公司电脑上外网需要设置代理服务器，我如果使用的话，怎么在公司代理的基础上再设置一个代理。_百度知道",
+      "url": "http://zhidao.baidu.com/link?url=tAHzBviDcazGhJc0P44-siyAAxy4lgcZf-6N4Uxrd_2Qhw5Jjw5nXVBVsOftT6vytnnIis4rRdHv7x2fZwfMG5IwDNcTbjQlwBx54lVCFee",
+      "path": "其他书签 / WebDevelop / 公司电脑上外网需要设置代理服务器，我如果使用的话，怎么在公司代理的基础上再设置一个代理。_百度知道",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站开发",
+        "通用网页开发",
+        "通用网页开发"
+      ]
+    },
+    {
+      "title": "typescript手册中文版",
+      "url": "https://zhongsp.gitbook.io/typescript-handbook/",
+      "path": "其他书签 / WebDevelop / TypeScript / typescript手册中文版",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站开发",
+        "前端与界面",
+        "TypeScript 与 JavaScript"
+      ]
+    },
+    {
+      "title": "Extension Developer Guide — JupyterLab 3.0.0a10 documentation",
+      "url": "https://jupyterlab.readthedocs.io/en/latest/developer/extension_dev.html",
+      "path": "其他书签 / WebDevelop / TypeScript / Extension Developer Guide — JupyterLab 3.0.0a10 documentation",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站开发",
+        "前端与界面",
+        "TypeScript 与 JavaScript"
+      ]
+    },
+    {
+      "title": "Common Extension Points — JupyterLab 3.0.0a14 documentation",
+      "url": "https://jupyterlab.readthedocs.io/en/latest/developer/extension_points.html?highlight=IFileBrowserFactory",
+      "path": "其他书签 / WebDevelop / TypeScript / Common Extension Points — JupyterLab 3.0.0a14 documentation",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站开发",
+        "前端与界面",
+        "TypeScript 与 JavaScript"
+      ]
+    },
+    {
+      "title": "URLExt | @jupyterlab",
+      "url": "https://jupyterlab.github.io/jupyterlab/modules/_coreutils_src_index_.urlext.html#encodeparts",
+      "path": "其他书签 / WebDevelop / TypeScript / URLExt | @jupyterlab",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站开发",
+        "前端与界面",
+        "TypeScript 与 JavaScript"
+      ]
+    },
+    {
+      "title": "User Interface Helpers — JupyterLab 2.2.6 documentation",
+      "url": "https://jupyterlab.readthedocs.io/en/stable/developer/ui_helpers.html?highlight=dialog#message-dialogs",
+      "path": "其他书签 / WebDevelop / TypeScript / User Interface Helpers — JupyterLab 2.2.6 documentation",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站开发",
+        "前端与界面",
+        "TypeScript 与 JavaScript"
+      ]
+    },
+    {
+      "title": "基于scrapy爬虫的天气数据采集(python) python基础教程",
+      "url": "http://mooc.guokr.com/career/9463/%E5%9F%BA%E4%BA%8Escrapy%E7%88%AC%E8%99%AB%E7%9A%84%E5%A4%A9%E6%B0%94%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86-python-/",
+      "path": "其他书签 / WebsiteScrap / 基于scrapy爬虫的天气数据采集(python) python基础教程",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "网页抓取与采集",
+        "抓取案例与经验"
+      ]
+    },
+    {
+      "title": "502 Bad gateway HTTP error — programming-review",
+      "url": "https://programming-review.com/502-bad-gateway-http-error/",
+      "path": "其他书签 / WebsiteScrap / 502 Bad gateway HTTP error — programming-review",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "网页抓取与采集",
+        "抓取案例与经验"
+      ]
+    },
+    {
+      "title": "www.zackgrossbart.com/hackito/search-engine-python/",
+      "url": "http://www.zackgrossbart.com/hackito/search-engine-python/",
+      "path": "其他书签 / WebsiteScrap / www.zackgrossbart.com/hackito/search-engine-python/",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "网页抓取与采集",
+        "抓取案例与经验"
+      ]
+    },
+    {
+      "title": "new 4.html",
+      "url": "file:///C:/Users/lwx346817/Desktop/new%204.html",
+      "path": "其他书签 / WebsiteScrap / new 4.html",
+      "detail": "本地文件不存在",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "网页抓取与采集",
+        "抓取案例与经验"
+      ]
+    },
+    {
+      "title": "如何采集Airbnb爱彼迎民宿数据信息？ – 大数据应用开发教程博客",
+      "url": "https://www.shenjian.io/blog/?p=1300",
+      "path": "其他书签 / WebsiteScrap / 如何采集Airbnb爱彼迎民宿数据信息？ – 大数据应用开发教程博客",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "网页抓取与采集",
+        "抓取案例与经验"
+      ]
+    },
+    {
+      "title": "我要自学网-视频教程|免费教程|自学电脑|3D教程|平面教程|影视动画教程|办公教程|机械设计教程|网站设计教程-我要自学网",
+      "url": "https://www.51zxw.net/",
+      "path": "其他书签 / Oline course / 我要自学网-视频教程|免费教程|自学电脑|3D教程|平面教程|影视动画教程|办公教程|机械设计教程|网站设计教程-我要自学网",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "学习资料与课程",
+        "在线课程与练习",
+        "课程与教程"
+      ]
+    },
+    {
+      "title": "Jupyter Notebook Viewer",
+      "url": "http://nbviewer.jupyter.org/github/lijin-THU/notes-python/blob/master/10.%20something%20interesting/10.04%20louis%20cha's%20kungfu%20world.ipynb",
+      "path": "其他书签 / Da / Jupyter Notebook Viewer",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "Open source Tools for Data Analysis using Python!!! | Aditya mehra | 领英",
+      "url": "http://www.linkedin.com/pulse/open-source-tools-data-analysis-usingpython-aditya-mehra",
+      "path": "其他书签 / Da / Open source Tools for Data Analysis using Python!!! | Aditya mehra | 领英",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyDx1f4TsSWZDrrwiGmkMKbUHsq7XtGuonY",
+      "url": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyDx1f4TsSWZDrrwiGmkMKbUHsq7XtGuonY",
+      "path": "其他书签 / Da / https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyDx1f4TsSWZDrrwiGmkMKbUHsq7XtGuonY",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyCNxl6TdIa2KU7tvx4wozJbJpsyxkerfKc",
+      "url": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyCNxl6TdIa2KU7tvx4wozJbJpsyxkerfKc",
+      "path": "其他书签 / Da / https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyCNxl6TdIa2KU7tvx4wozJbJpsyxkerfKc",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "Kaggle: Your Home for Data Science",
+      "url": "https://www.kaggle.com/",
+      "path": "其他书签 / Da / Kaggle: Your Home for Data Science",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "pyecharts - 首页",
+      "url": "http://pyecharts.herokuapp.com/",
+      "path": "其他书签 / Da / pyecharts - 首页",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "基于scrapy爬虫的天气数据采集(python) python基础教程",
+      "url": "http://mooc.guokr.com/career/9463/%E5%9F%BA%E4%BA%8Escrapy%E7%88%AC%E8%99%AB%E7%9A%84%E5%A4%A9%E6%B0%94%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86-python-/",
+      "path": "其他书签 / Scrapy / 基于scrapy爬虫的天气数据采集(python) python基础教程",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "Scrapy 与抓取框架",
+        "Scrapy 实战"
+      ]
+    },
+    {
+      "title": "502 Bad gateway HTTP error — programming-review",
+      "url": "https://programming-review.com/502-bad-gateway-http-error/",
+      "path": "其他书签 / Scrapy / 502 Bad gateway HTTP error — programming-review",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "Scrapy 与抓取框架",
+        "Scrapy 实战"
+      ]
+    },
+    {
+      "title": "www.zackgrossbart.com/hackito/search-engine-python/",
+      "url": "http://www.zackgrossbart.com/hackito/search-engine-python/",
+      "path": "其他书签 / Scrapy / www.zackgrossbart.com/hackito/search-engine-python/",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "网站抓取与自动化",
+        "Scrapy 与抓取框架",
+        "Scrapy 实战"
+      ]
+    },
+    {
+      "title": "专栏：Python 也可以 - 博客频道 - CSDN.NET",
+      "url": "http://blog.csdn.net/column/details/python-can.html",
+      "path": "其他书签 / Python / 专栏：Python 也可以 - 博客频道 - CSDN.NET",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "快速上手 — Requests 1.1.0 文档",
+      "url": "http://docs.python-requests.org/zh_CN/latest/user/quickstart.html#cookies",
+      "path": "其他书签 / Python / 快速上手 — Requests 1.1.0 文档",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "PPV课-大数据在线学习社区-国内领先的大数据职业教育平台",
+      "url": "http://www.ppvke.com/",
+      "path": "其他书签 / Python / PPV课-大数据在线学习社区-国内领先的大数据职业教育平台",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "100套数据分析英文秘籍 - PPV课社区",
+      "url": "http://www.ppvke.com/Answer/question/26043",
+      "path": "其他书签 / Python / 100套数据分析英文秘籍 - PPV课社区",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "一步步用python制作游戏外挂【转】 - 小さいです哥 - 博客园",
+      "url": "http://www.cnblogs.com/xsmhero/archive/2013/01/03/2842973.html",
+      "path": "其他书签 / Python / 一步步用python制作游戏外挂【转】 - 小さいです哥 - 博客园",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "python-excel.pdf",
+      "url": "http://www.simplistix.co.uk/presentations/python-excel.pdf",
+      "path": "其他书签 / Python / python-excel.pdf",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "Python to batch generate QR codes | Dynamic Planning and Science",
+      "url": "http://dynamicplanning.co/projects/python-to-batch-generate-qr-codes/",
+      "path": "其他书签 / Python / Python to batch generate QR codes | Dynamic Planning and Science",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "HujiaweiBujidao",
+      "url": "http://hujiaweibujidao.github.io/python/",
+      "path": "其他书签 / Python / HujiaweiBujidao",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "Python全部 - 课程 - 实验楼",
+      "url": "https://www.shiyanlou.com/courses/?course_type=all&tag=Python",
+      "path": "其他书签 / Python / Python全部 - 课程 - 实验楼",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "地球物理相关软件 | SeisMan",
+      "url": "http://seisman.info/geo-software.html",
+      "path": "其他书签 / Python / 地球物理相关软件 | SeisMan",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "win32com: Trouble using Excel's \"SaveAs\" method for Workbooks and Worksheet objects « python-list « ActiveState List Archives",
+      "url": "http://code.activestate.com/lists/python-list/%3c39DB0C30.676823C2@adtranzsig.de%3e/",
+      "path": "其他书签 / Python / win32com: Trouble using Excel's \"SaveAs\" method for Workbooks and Worksheet objects « python-list « ActiveState List Archives",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "开发编程",
+        "Python 开发与脚本",
+        "语言基础与常用库"
+      ]
+    },
+    {
+      "title": "Jupyter Notebook Viewer",
+      "url": "http://nbviewer.jupyter.org/github/lijin-THU/notes-python/blob/master/10.%20something%20interesting/10.04%20louis%20cha's%20kungfu%20world.ipynb",
+      "path": "其他书签 / Da / Jupyter Notebook Viewer",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "Open source Tools for Data Analysis using Python!!! | Aditya mehra | 领英",
+      "url": "http://www.linkedin.com/pulse/open-source-tools-data-analysis-usingpython-aditya-mehra",
+      "path": "其他书签 / Da / Open source Tools for Data Analysis using Python!!! | Aditya mehra | 领英",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyDx1f4TsSWZDrrwiGmkMKbUHsq7XtGuonY",
+      "url": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyDx1f4TsSWZDrrwiGmkMKbUHsq7XtGuonY",
+      "path": "其他书签 / Da / https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyDx1f4TsSWZDrrwiGmkMKbUHsq7XtGuonY",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyCNxl6TdIa2KU7tvx4wozJbJpsyxkerfKc",
+      "url": "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyCNxl6TdIa2KU7tvx4wozJbJpsyxkerfKc",
+      "path": "其他书签 / Da / https://maps.googleapis.com/maps/api/place/radarsearch/json?location=48.859294,2.347589&radius=5000&type=cafe&keyword=vegetarian&key=AIzaSyCNxl6TdIa2KU7tvx4wozJbJpsyxkerfKc",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "Kaggle: Your Home for Data Science",
+      "url": "https://www.kaggle.com/",
+      "path": "其他书签 / Da / Kaggle: Your Home for Data Science",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "pyecharts - 首页",
+      "url": "http://pyecharts.herokuapp.com/",
+      "path": "其他书签 / Da / pyecharts - 首页",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "数据分析与数据工程",
+        "数据分析与可视化",
+        "数据分析实践"
+      ]
+    },
+    {
+      "title": "民国文献汇编",
+      "url": "http://www.saohua.com/shuku/minguo/",
+      "path": "其他书签 / Books / 民国文献汇编",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "学习资料与课程",
+        "书籍与长文",
+        "书单与电子书"
+      ]
+    },
+    {
+      "title": "Category:Bookshelf - Gutenberg",
+      "url": "http://www.gutenberg.org/wiki/Category:Bookshelf",
+      "path": "其他书签 / Books / Category:Bookshelf - Gutenberg",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "学习资料与课程",
+        "书籍与长文",
+        "书单与电子书"
+      ]
+    },
+    {
+      "title": "200 Erotic Movies Ranked Worst to Best << Rotten Tomatoes – Movie and TV News",
+      "url": "https://editorial.rottentomatoes.com/guide/erotic-movies-ranked-worst-to-best/2/",
+      "path": "其他书签 / Books / 200 Erotic Movies Ranked Worst to Best << Rotten Tomatoes – Movie and TV News",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "学习资料与课程",
+        "书籍与长文",
+        "书单与电子书"
+      ]
+    },
+    {
+      "title": "公司电脑上外网需要设置代理服务器，我如果使用的话，怎么在公司代理的基础上再设置一个代理。_百度知道",
+      "url": "http://zhidao.baidu.com/link?url=tAHzBviDcazGhJc0P44-siyAAxy4lgcZf-6N4Uxrd_2Qhw5Jjw5nXVBVsOftT6vytnnIis4rRdHv7x2fZwfMG5IwDNcTbjQlwBx54lVCFee",
+      "path": "其他书签 / 公司电脑上外网需要设置代理服务器，我如果使用的话，怎么在公司代理的基础上再设置一个代理。_百度知道",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "系统与运维",
+        "网络与安全",
+        "代理与网络安全"
+      ]
+    },
+    {
+      "title": "Firebug :: Firefox 附加组件",
+      "url": "https://addons.mozilla.org/zh-CN/firefox/addon/firebug/?src=ss",
+      "path": "其他书签 / Firebug :: Firefox 附加组件",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "待整理",
+        "待人工复核",
+        "待后续细分"
+      ]
+    },
+    {
+      "title": "VBS声音平衡教学系统 - 课程",
+      "url": "http://vocalbalance.info/cn/courses",
+      "path": "其他书签 / temp / VBS声音平衡教学系统 - 课程",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "学习资料与课程",
+        "在线课程与练习",
+        "课程与教程"
+      ]
+    },
+    {
+      "title": "一文帮你解决APP抓包难题 - FreeBuf网络安全行业门户",
+      "url": "https://www.freebuf.com/articles/system/347725.html",
+      "path": "其他书签 / learn / 一文帮你解决APP抓包难题 - FreeBuf网络安全行业门户",
+      "detail": "HTTP 404",
+      "hierarchy": [
+        "学习资料与课程",
+        "在线课程与练习",
+        "在线课程与练习"
+      ]
+    }
+  ]
+}

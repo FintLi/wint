@@ -1,0 +1,221 @@
+[
+  {
+    "story_key": "f08d310bd9c6",
+    "source_id": "google_blog",
+    "source_name": "Google Blog",
+    "tier": "official",
+    "priority": 94,
+    "title": "Enabling Gemini for Education across all Malaysian public universities",
+    "title_key": "enabling gemini for education across all malaysian public universities",
+    "title_tokens": [
+      "across",
+      "education",
+      "enabling",
+      "gemini",
+      "malaysian",
+      "public",
+      "universities"
+    ],
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/gemini-malaysia-universities",
+    "domain": "blog.google",
+    "published_at": "2026-03-08T18:00:00+00:00",
+    "published_local": "2026-03-09 02:00",
+    "description": "Gemini for Education is now in all 20 Malaysian public universities, reaching 600,000 students and 75,000 faculty members.",
+    "categories": [
+      "Learning & Education",
+      "Google in Asia"
+    ],
+    "duplicates": [],
+    "selection_mode": "strict",
+    "selection_score": 109524,
+    "impact_labels": [
+      "model_release",
+      "low_signal:education",
+      "low_signal:universities"
+    ],
+    "summary": "Gemini for Education is now in all 20 Malaysian public universities, reaching 600,000 students and 75,000 faculty members."
+  },
+  {
+    "story_key": "d7fe963620a4",
+    "source_id": "techcrunch_ai",
+    "source_name": "TechCrunch AI",
+    "tier": "media",
+    "priority": 60,
+    "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+    "title_key": "owner of ice detention facility sees big opportunity in ai man camps",
+    "title_tokens": [
+      "big",
+      "camps",
+      "detention",
+      "facility",
+      "ice",
+      "man",
+      "opportunity",
+      "owner",
+      "sees"
+    ],
+    "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps",
+    "domain": "techcrunch.com",
+    "published_at": "2026-03-08T16:30:00+00:00",
+    "published_local": "2026-03-09 00:30",
+    "description": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields.",
+    "categories": [
+      "AI",
+      "target hospitality"
+    ],
+    "duplicates": [],
+    "selection_mode": "strict",
+    "selection_score": 6395,
+    "impact_labels": [
+      "chips_compute"
+    ],
+    "summary": "AI data center developers are increasingly relying on a style of camp popularized as housing for men working in remote oil fields."
+  },
+  {
+    "story_key": "42aca820764a",
+    "source_id": "techcrunch_ai",
+    "source_name": "TechCrunch AI",
+    "tier": "media",
+    "priority": 60,
+    "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+    "title_key": "will the pentagon s anthropic controversy scare startups away from defense work",
+    "title_tokens": [
+      "away",
+      "controversy",
+      "defense",
+      "pentagon",
+      "scare",
+      "startups",
+      "work"
+    ],
+    "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work",
+    "domain": "techcrunch.com",
+    "published_at": "2026-03-08T20:14:42+00:00",
+    "published_local": "2026-03-09 04:14",
+    "description": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government.",
+    "categories": [
+      "AI",
+      "Government & Policy",
+      "Anthropic",
+      "dario amodei",
+      "Emil Michael",
+      "OpenAI"
+    ],
+    "duplicates": [],
+    "selection_mode": "strict",
+    "selection_score": 6208,
+    "impact_labels": [
+      "policy",
+      "low_signal:podcast"
+    ],
+    "summary": "On the latest episode of TechCrunch’s Equity podcast, we discussed what the controversy means for other startups seeking to work with the federal government."
+  },
+  {
+    "story_key": "ed62a0a4ec41",
+    "source_id": "techcrunch_ai",
+    "source_name": "TechCrunch AI",
+    "tier": "media",
+    "priority": 60,
+    "title": "A roadmap for AI, if anyone will listen",
+    "title_key": "a roadmap for ai if anyone will listen",
+    "title_tokens": [
+      "anyone",
+      "listen",
+      "roadmap"
+    ],
+    "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen",
+    "domain": "techcrunch.com",
+    "published_at": "2026-03-08T06:05:26+00:00",
+    "published_local": "2026-03-08 14:05",
+    "description": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
+    "categories": [
+      "AI",
+      "Anthropic",
+      "Max Tegmark",
+      "OpenAI",
+      "pentagon",
+      "The Pro-Human Declaration"
+    ],
+    "duplicates": [],
+    "selection_mode": "strict",
+    "selection_score": 6093,
+    "impact_labels": [],
+    "summary": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved."
+  },
+  {
+    "story_key": "8b3e157990d1",
+    "source_id": "engadget",
+    "source_name": "Engadget",
+    "tier": "media",
+    "priority": 54,
+    "title": "OpenAI's robotics hardware lead resigns following deal with the Department of Defense",
+    "title_key": "openai s robotics hardware lead resigns following deal with the department of defense",
+    "title_tokens": [
+      "deal",
+      "defense",
+      "department",
+      "following",
+      "hardware",
+      "lead",
+      "resigns",
+      "robotics"
+    ],
+    "url": "https://engadget.com/ai/openais-robotics-hardware-lead-resigns-following-deal-with-the-department-of-defense-195918599.html",
+    "domain": "engadget.com",
+    "published_at": "2026-03-08T14:44:19+00:00",
+    "published_local": "2026-03-08 22:44",
+    "description": "OpenAI 's robotics hardware lead is out. Caitlin Kalinowski, who oversaw hardware within the robotics division of OpenAI, posted on X that she was resigning from her role, while criticizing the company's haste in partnering with the Department of Defense without investigating proper guardrails. OpenAI told Engadget that there are no plans to replace Kalinowski. Kalinowski, who previously worked at Meta before leaving to join OpenAI in late 2024, wrote on X that \"surveillance of Americans without judicial oversight and lethal autonomy without human authorization are lines that deserved more deliberation than they got.\" Responding to another post, the former OpenAI exec explained that \"the announcement was rushed without the guardrails defined,\" adding that it was a \"governance concern first and foremost.\" OpenAI confirmed Kalinowski's resignation and said in a statement to Engadget that the company understands people have \"strong views\" about these issues and will continue to engage in discussions with relevant parties. The company also explained in the statement that it doesn't support the issues that Kalinowski brought up. \"We believe our agreement with the Pentagon creates a workable path for responsible national security uses of AI while making clear our red lines: no domestic surveillance and no autonomous weapons,\" the OpenAI statement read. Kalinowski's resignation may be the most high-profile fallout from OpenAI's decision to sign a deal with the Department of Defense. The decision came just after Anthropic refused to comply with lifting certain AI guardrails around mass surveillance and developing fully autonomous weapons. However, even OpenAI's CEO, Sam Altman , said that he would amend the deal with the Department of Defense to prohibit spying on Americans. Correction, March 8 2026, 10:30AM ET: This story has been updated to correct Kalinowski's role at OpenAI to \"robotics hardware lead\" instead of \"head of robotics.\" This article originally appeared on Engadget at https://www.engadget.com/ai/openais-robotics-hardware-lead-resigns-following-deal-with-the-department-of-defense-195918599.html?src=rss",
+    "categories": [
+      "Internet & Networking Technology",
+      "site|engadget",
+      "provider_name|Engadget",
+      "region|US",
+      "language|en-US",
+      "author_name|Jackson Chen"
+    ],
+    "duplicates": [],
+    "selection_mode": "strict",
+    "selection_score": 5755,
+    "impact_labels": [
+      "policy"
+    ],
+    "summary": "OpenAI 's robotics hardware lead is out. Caitlin Kalinowski, who oversaw hardware within the robotics division of OpenAI, posted on X that she was resigning from her role, while..."
+  },
+  {
+    "story_key": "056d19b13641",
+    "source_id": "techcrunch_ai",
+    "source_name": "TechCrunch AI",
+    "tier": "media",
+    "priority": 60,
+    "title": "Google just gave Sundar Pichai a $692M pay package",
+    "title_key": "google just gave sundar pichai a 692m pay package",
+    "title_tokens": [
+      "692m",
+      "gave",
+      "just",
+      "package",
+      "pay",
+      "pichai",
+      "sundar"
+    ],
+    "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package",
+    "domain": "techcrunch.com",
+    "published_at": "2026-03-08T00:20:10+00:00",
+    "published_local": "2026-03-08 08:20",
+    "description": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
+    "categories": [
+      "AI",
+      "TC",
+      "Alphabet",
+      "Google",
+      "Sundar Pichai"
+    ],
+    "duplicates": [],
+    "selection_mode": "relaxed_fill",
+    "selection_score": 5879,
+    "impact_labels": [
+      "low_signal:pay package"
+    ],
+    "summary": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture."
+  }
+]

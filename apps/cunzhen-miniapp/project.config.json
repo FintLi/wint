@@ -1,0 +1,24 @@
+{
+  "appid": "wx58e50d43601eae72",
+  "compileType": "miniprogram",
+  "projectname": "cunzhen-miniapp",
+  "miniprogramRoot": "./",
+  "libVersion": "3.6.0",
+  "simulatorType": "wechat",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": false,
+    "useApiHostProcess": false,
+    "useIsolateContext": false,
+    "packNpmManually": false,
+    "useCompilerPlugins": false
+  },
+  "condition": {}
+}

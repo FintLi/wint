@@ -1,0 +1,85 @@
+#!/usr/bin/env expect
+
+set timeout 90
+
+if {![info exists env(VPS_HOST)] || $env(VPS_HOST) eq ""} {
+    send_user "VPS_HOST is required\n"
+    exit 2
+}
+
+set host $env(VPS_HOST)
+set user "root"
+if {[info exists env(VPS_USER)] && $env(VPS_USER) ne ""} {
+    set user $env(VPS_USER)
+}
+
+set password ""
+if {[info exists env(VPS_PASSWORD)]} {
+    set password $env(VPS_PASSWORD)
+}
+
+set remote_cmd {echo ---IDENTITY---;
+hostname;
+whoami;
+date -Is;
+uptime;
+uname -a;
+cat /etc/os-release;
+echo ---TIME---;
+timedatectl 2>/dev/null || true;
+echo ---RESOURCE---;
+free -h;
+vmstat 1 5 2>/dev/null || true;
+df -hT;
+df -ih;
+lsblk 2>/dev/null || true;
+echo ---TOP-PROCESSES-MEM---;
+ps aux --sort=-%mem | head -n 20;
+echo ---TOP-PROCESSES-CPU---;
+ps aux --sort=-%cpu | head -n 20;
+echo ---NETWORK---;
+ip addr 2>/dev/null || true;
+ip route 2>/dev/null || true;
+cat /etc/resolv.conf 2>/dev/null || true;
+ss -ltnup 2>/dev/null || true;
+echo ---FIREWALL---;
+nft list ruleset 2>/dev/null || true;
+iptables -S 2>/dev/null || true;
+ufw status 2>/dev/null || true;
+echo ---SSH---;
+systemctl status ssh 2>/dev/null | sed -n '1,60p' || true;
+grep -E '^(Port|PermitRootLogin|PasswordAuthentication)' /etc/ssh/sshd_config /etc/ssh/sshd_config.d/* 2>/dev/null || true;
+echo ---SYSTEMD---;
+systemctl --failed 2>/dev/null || true;
+systemctl list-unit-files 2>/dev/null | grep -i -E 'wireproxy|ssh|cron|proxy|openclaw' || true;
+systemctl list-timers --all 2>/dev/null | sed -n '1,80p' || true;
+echo ---CRON---;
+ls -l /etc/cron.d 2>/dev/null || true;
+crontab -l 2>/dev/null || true;
+echo ---JOURNAL-ERR---;
+journalctl -p err -n 80 --no-pager 2>/dev/null || true;
+echo ---APP-FOOTPRINT---;
+command -v openclaw || true;
+openclaw --version 2>/dev/null || true;
+systemctl --user status openclaw-gateway 2>/dev/null | sed -n '1,40p' || true;
+/usr/local/bin/CLIProxyAPI --version 2>/dev/null || true;
+ps -ef | grep -i cli-proxy-api | grep -v grep || true;
+ls -ld /opt/openclaw-firststand /var/lib/openclaw-firststand 2>/dev/null || true;
+echo ---DONE---}
+
+spawn ssh -o StrictHostKeyChecking=no ${user}@${host} bash -lc $remote_cmd
+expect {
+    -re ".*yes/no.*" {
+        send "yes\r"
+        exp_continue
+    }
+    -re ".*assword:.*" {
+        if {$password eq ""} {
+            send_user "VPS_PASSWORD is required because SSH requested a password.\n"
+            exit 3
+        }
+        send "$password\r"
+        exp_continue
+    }
+    eof
+}

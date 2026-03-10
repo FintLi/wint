@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="notice">填写后会按预算、上班地和入住时间，优先给你匹配 3 套最近还能看的真房源。</view>
+
+  <view class="form-section">
+    <view class="form-label">姓名 *</view>
+    <input class="input" value="{{form.name}}" data-field="name" bindinput="onInput" placeholder="怎么称呼你" />
+
+    <view class="form-label" style="margin-top: 16rpx;">微信 / 手机 *</view>
+    <input class="input" value="{{form.contact}}" data-field="contact" bindinput="onInput" placeholder="方便联系你的方式" />
+
+    <view class="form-label" style="margin-top: 16rpx;">预算下限 *</view>
+    <input class="input" type="number" value="{{form.budgetMin}}" data-field="budgetMin" bindinput="onInput" />
+
+    <view class="form-label" style="margin-top: 16rpx;">预算上限 *</view>
+    <input class="input" type="number" value="{{form.budgetMax}}" data-field="budgetMax" bindinput="onInput" />
+
+    <view class="form-label" style="margin-top: 16rpx;">上班地 *</view>
+    <input class="input" value="{{form.workArea}}" data-field="workArea" bindinput="onInput" placeholder="例如：西乡地铁站 / 机场东" />
+
+    <view class="form-label" style="margin-top: 16rpx;">可接受通勤</view>
+    <picker class="picker" mode="selector" range="{{commuteOptions}}" bindchange="onCommuteChange">
+      <view>{{form.commutePreference}}</view>
+    </picker>
+
+    <view class="form-label" style="margin-top: 16rpx;">房型偏好</view>
+    <radio-group bindchange="onRoomChange">
+      <label class="chip chip-muted"><radio value="单间" checked="{{form.roomPreference === '单间'}}" />单间</label>
+      <label class="chip chip-muted"><radio value="合租" checked="{{form.roomPreference === '合租'}}" />合租</label>
+      <label class="chip chip-muted"><radio value="一房" checked="{{form.roomPreference === '一房'}}" />一房</label>
+    </radio-group>
+
+    <view class="form-label" style="margin-top: 16rpx;">最晚入住时间</view>
+    <picker class="picker" mode="date" value="{{form.moveInDeadline}}" bindchange="onDateChange">
+      <view>{{form.moveInDeadline}}</view>
+    </picker>
+
+    <view class="form-label" style="margin-top: 16rpx;">额外要求</view>
+    <textarea class="textarea" value="{{form.notes}}" data-field="notes" bindinput="onInput" placeholder="例如：独卫、夜归安全、电动车停放等" />
+  </view>
+
+  <button class="btn-primary" bindtap="submitForm">提交求租卡</button>
+</view>

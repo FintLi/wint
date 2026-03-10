@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw VPS Ops"
+  short_description: "主机正常后排查 OpenClaw 与通知链路"
+  default_prompt: "Use $openclaw-vps-ops only after host checks pass to diagnose the OpenClaw binary, gateway, auth, notifier, Feishu cards, or CLIProxyAPI app wiring."

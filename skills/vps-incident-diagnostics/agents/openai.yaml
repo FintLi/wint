@@ -1,0 +1,4 @@
+interface:
+  display_name: "VPS Incident Diagnostics"
+  short_description: "先查 SSH、网络、资源与系统服务"
+  default_prompt: "Use $vps-incident-diagnostics when the RackNerd VPS itself may be unreachable, unhealthy, resource-starved, or failing at the host/service layer before debugging OpenClaw or other apps."

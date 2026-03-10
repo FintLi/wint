@@ -1,0 +1,63 @@
+<view class="container">
+  <view class="card hero-card">
+    <view class="title">村圳</view>
+    <view class="subtitle">深圳宝安西乡 / 福永城中村真房源成交助手</view>
+    <view class="wrap" style="margin-top: 24rpx;">
+      <view class="chip">真房源</view>
+      <view class="chip">72 小时内核验</view>
+      <view class="chip">集中带看</view>
+      <view class="chip">供给侧付费</view>
+    </view>
+    <view class="row" style="margin-top: 28rpx;">
+      <button class="btn-primary" bindtap="goListings">立即找房</button>
+      <button class="btn-secondary" bindtap="goDemandForm">提交求租卡</button>
+    </view>
+    <view class="row" style="margin-top: 16rpx;">
+      <button class="btn-ghost" bindtap="goSupplyForm">合作方提报房源</button>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">今天最该盯的数字</view>
+    <view class="grid-2">
+      <block wx:for="{{summaryCards}}" wx:key="label">
+        <view class="stat-card">
+          <view class="stat-label">{{item.label}}</view>
+          <view class="stat-value">{{item.value}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="row-between">
+      <view class="section-title">精选真房源</view>
+      <view class="muted" bindtap="goListings">查看全部</view>
+    </view>
+    <block wx:if="{{featuredListings.length}}">
+      <block wx:for="{{featuredListings}}" wx:key="id">
+        <view class="listing-card" data-id="{{item.id}}" bindtap="openDetail">
+          <view class="row-between">
+            <view class="listing-title">{{item.title}}</view>
+            <view class="listing-price">{{item.rentLabel}}</view>
+          </view>
+          <view class="meta-text">{{item.village}} · {{item.roomType}} · {{item.floorLabel}}</view>
+          <view class="meta-text">最近核验：{{item.verifiedLabel}}</view>
+          <view class="wrap" style="margin-top: 12rpx;">
+            <block wx:for="{{item.safetyTags}}" wx:key="*this">
+              <view class="chip chip-muted">{{item}}</view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </block>
+    <view wx:else class="empty">当前暂无可展示房源</view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">为什么先做这个 MVP</view>
+    <view class="meta-text">1. 先用人工核验和匹配跑通成交，而不是先砸时间做大平台。</view>
+    <view class="meta-text">2. 前台只展示完整、未过期、72 小时内刷新过的房源。</view>
+    <view class="meta-text">3. 运营端重点看：求租卡、带看、失效房源、供给方质量。</view>
+  </view>
+</view>

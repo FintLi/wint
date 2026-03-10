@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Feature Builder"
+  short_description: "给龙虾日报、赛前提醒与飞书卡片新增功能并完成验证"
+  default_prompt: "Use $openclaw-feature-builder to add or modify a feature in the OpenClaw First Stand→Feishu workflow, then validate and deploy it safely."

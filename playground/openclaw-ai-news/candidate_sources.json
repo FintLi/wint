@@ -1,0 +1,35 @@
+{
+  "candidates": {
+    "bloomberg.com": {
+      "domain": "bloomberg.com",
+      "first_seen": "2026-03-09T08:00:00+08:00",
+      "last_seen": "2026-03-09T08:00:00+08:00",
+      "hit_count": 28,
+      "example_url": "https://www.bloomberg.com/news/articles/2018-08-07/welcome-to-the-man-camps-of-west-texas",
+      "seen_via_url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps",
+      "seen_via_source": "TechCrunch AI",
+      "seen_via_title": "Owner of ICE detention facility sees big opportunity in AI man camps"
+    },
+    "web.archive.org": {
+      "domain": "web.archive.org",
+      "first_seen": "2026-03-09T08:00:00+08:00",
+      "last_seen": "2026-03-09T08:00:00+08:00",
+      "hit_count": 9,
+      "example_url": "https://web.archive.org/web/20260227062730/https://www.houstonchronicle.com/news/investigations/article/target-hospitality-trump-ice-profits-21343561.php",
+      "seen_via_url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps",
+      "seen_via_source": "TechCrunch AI",
+      "seen_via_title": "Owner of ICE detention facility sees big opportunity in AI man camps"
+    },
+    "apple.com": {
+      "domain": "apple.com",
+      "first_seen": "2026-03-09T08:00:00+08:00",
+      "last_seen": "2026-03-09T08:00:00+08:00",
+      "hit_count": 1,
+      "example_url": "https://www.apple.com/newsroom/2025/11/mapping-the-future-with-3d-printed-titanium-apple-watch-cases/",
+      "seen_via_url": "https://engadget.com/mobile/smartphones/apple-is-reportedly-looking-into-3d-printing-aluminum-iphones-and-apple-watches-163721491.html",
+      "seen_via_source": "Engadget",
+      "seen_via_title": "Apple is reportedly looking into 3D printing aluminum iPhones and Apple Watches"
+    }
+  },
+  "updated_at": "2026-03-09T15:18:08.071469+08:00"
+}

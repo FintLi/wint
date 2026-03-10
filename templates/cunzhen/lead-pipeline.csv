@@ -1,0 +1,2 @@
+lead_id,created_at,name,contact,budget_min,budget_max,work_area,commute_preference,room_preference,move_in_deadline,source_content,source_channel,status,pushed_listing_count,appointment_count,loss_reason,notes
+Q-001,2026-03-09,示例租客,wechat-demo,1000,1800,西乡地铁站,通勤45分钟内,单间,2026-03-15,西乡1200单间实拍,短视频,新线索,0,0,,示例数据

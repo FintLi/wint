@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-03-09T08:30:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "windowStartLocal": "2026-03-08 08:00",
+  "windowEndLocal": "2026-03-09 08:00",
+  "windowId": "20260308T080000+0800__20260309T080000+0800",
+  "summaryMode": "fallback_preview",
+  "rawItemCount": 5,
+  "selectedCount": 6,
+  "selectionBreakdown": {
+    "official": 1,
+    "media": 5
+  },
+  "sourceStatus": [
+    {
+      "source_id": "openai_news",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "google_blog",
+      "count": 1,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "anthropic_news",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "google_deepmind_blog",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "microsoft_source",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "meta_newsroom",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "nvidia_blog",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "techcrunch_ai",
+      "count": 3,
+      "relaxed_count": 1,
+      "status": "ok"
+    },
+    {
+      "source_id": "the_verge_ai",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "wired_ai",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "nyt_technology",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "ars_biz_it",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "engadget",
+      "count": 1,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "mit_technology_review_ai",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "fastcompany_ai",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    },
+    {
+      "source_id": "fastcompany_technology",
+      "count": 0,
+      "relaxed_count": 0,
+      "status": "ok"
+    }
+  ],
+  "candidateSourceCount": 3,
+  "selectedItems": [
+    {
+      "story_key": "f08d310bd9c6",
+      "title": "Enabling Gemini for Education across all Malaysian public universities",
+      "source_name": "Google Blog",
+      "tier": "official",
+      "published_local": "2026-03-09 02:00",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/gemini-malaysia-universities",
+      "selection_score": 109524,
+      "impact_labels": [
+        "model_release",
+        "low_signal:education",
+        "low_signal:universities"
+      ],
+      "duplicates": []
+    },
+    {
+      "story_key": "d7fe963620a4",
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "source_name": "TechCrunch AI",
+      "tier": "media",
+      "published_local": "2026-03-09 00:30",
+      "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps",
+      "selection_score": 6395,
+      "impact_labels": [
+        "chips_compute"
+      ],
+      "duplicates": []
+    },
+    {
+      "story_key": "42aca820764a",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "source_name": "TechCrunch AI",
+      "tier": "media",
+      "published_local": "2026-03-09 04:14",
+      "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work",
+      "selection_score": 6208,
+      "impact_labels": [
+        "policy",
+        "low_signal:podcast"
+      ],
+      "duplicates": []
+    },
+    {
+      "story_key": "ed62a0a4ec41",
+      "title": "A roadmap for AI, if anyone will listen",
+      "source_name": "TechCrunch AI",
+      "tier": "media",
+      "published_local": "2026-03-08 14:05",
+      "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen",
+      "selection_score": 6093,
+      "impact_labels": [],
+      "duplicates": []
+    },
+    {
+      "story_key": "8b3e157990d1",
+      "title": "OpenAI's robotics hardware lead resigns following deal with the Department of Defense",
+      "source_name": "Engadget",
+      "tier": "media",
+      "published_local": "2026-03-08 22:44",
+      "url": "https://engadget.com/ai/openais-robotics-hardware-lead-resigns-following-deal-with-the-department-of-defense-195918599.html",
+      "selection_score": 5755,
+      "impact_labels": [
+        "policy"
+      ],
+      "duplicates": []
+    },
+    {
+      "story_key": "056d19b13641",
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "source_name": "TechCrunch AI",
+      "tier": "media",
+      "published_local": "2026-03-08 08:20",
+      "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package",
+      "selection_score": 5879,
+      "impact_labels": [
+        "low_signal:pay package"
+      ],
+      "duplicates": []
+    }
+  ]
+}

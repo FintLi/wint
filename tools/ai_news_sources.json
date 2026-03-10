@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "openai_news",
+      "name": "OpenAI News",
+      "tier": "official",
+      "enabled": true,
+      "priority": 98,
+      "entry_type": "rss",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "domains": ["openai.com"],
+      "all_ai": true,
+      "ai_filters": {
+        "exclude_keywords": ["jobs", "hiring"]
+      }
+    },
+    {
+      "id": "google_blog",
+      "name": "Google Blog",
+      "tier": "official",
+      "enabled": true,
+      "priority": 94,
+      "entry_type": "rss",
+      "feed_url": "https://blog.google/rss/",
+      "domains": ["blog.google", "google.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "gemini",
+          "deepmind",
+          "gemma",
+          "veo",
+          "imagen",
+          "lyria",
+          "synthid",
+          "genie",
+          "alphafold",
+          "alphagenome"
+        ],
+        "categories_any": [
+          "AI",
+          "Google DeepMind",
+          "Gemini",
+          "Gemma",
+          "Veo",
+          "Imagen",
+          "Lyria",
+          "SynthID"
+        ]
+      }
+    },
+    {
+      "id": "anthropic_news",
+      "name": "Anthropic News",
+      "tier": "official",
+      "enabled": true,
+      "priority": 96,
+      "entry_type": "anthropic_news_html",
+      "url": "https://www.anthropic.com/news",
+      "domains": ["anthropic.com"] ,
+      "all_ai": true,
+      "ai_filters": {
+        "exclude_keywords": ["careers", "hiring"]
+      }
+    },
+    {
+      "id": "google_deepmind_blog",
+      "name": "Google DeepMind Blog",
+      "tier": "official",
+      "enabled": true,
+      "priority": 93,
+      "entry_type": "deepmind_blog_html",
+      "url": "https://deepmind.google/blog/",
+      "domains": ["deepmind.google"],
+      "all_ai": true,
+      "max_scan_items": 16,
+      "ai_filters": {
+        "exclude_keywords": ["podcast"]
+      }
+    },
+    {
+      "id": "microsoft_source",
+      "name": "Microsoft Source",
+      "tier": "official",
+      "enabled": true,
+      "priority": 88,
+      "entry_type": "rss",
+      "feed_url": "https://news.microsoft.com/source/feed/",
+      "domains": ["news.microsoft.com", "microsoft.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "copilot",
+          "azure ai",
+          "phi",
+          "agent",
+          "agents",
+          "generative"
+        ],
+        "categories_any": ["AI", "Copilot", "Azure AI", "Artificial Intelligence", "Machine Learning"]
+      }
+    },
+    {
+      "id": "meta_newsroom",
+      "name": "Meta Newsroom",
+      "tier": "official",
+      "enabled": true,
+      "priority": 87,
+      "entry_type": "rss",
+      "feed_url": "https://about.fb.com/news/feed/",
+      "domains": ["about.fb.com", "meta.com"],
+      "ai_filters": {
+        "keywords_any": ["ai", "artificial intelligence", "llama", "meta ai", "genai", "generative"],
+        "categories_any": ["AI", "Meta AI", "Research"]
+      }
+    },
+    {
+      "id": "nvidia_blog",
+      "name": "NVIDIA Blog",
+      "tier": "official",
+      "enabled": true,
+      "priority": 86,
+      "entry_type": "rss",
+      "feed_url": "https://blogs.nvidia.com/feed/",
+      "domains": ["blogs.nvidia.com", "nvidia.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "blackwell",
+          "dgx",
+          "cuda",
+          "nemo",
+          "nim",
+          "gr00t",
+          "inference",
+          "training",
+          "robotics",
+          "generative"
+        ],
+        "categories_any": ["AI", "Artificial Intelligence", "Generative AI", "Robotics"]
+      }
+    },
+    {
+      "id": "techcrunch_ai",
+      "name": "TechCrunch AI",
+      "tier": "media",
+      "enabled": true,
+      "priority": 60,
+      "entry_type": "rss",
+      "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "domains": ["techcrunch.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "openai",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "gemini",
+          "llama",
+          "deepseek",
+          "grok",
+          "model",
+          "models",
+          "agent",
+          "agents",
+          "generative",
+          "chip",
+          "gpu",
+          "data center",
+          "pentagon",
+          "copilot"
+        ]
+      }
+    },
+    {
+      "id": "the_verge_ai",
+      "name": "The Verge AI",
+      "tier": "media",
+      "enabled": true,
+      "priority": 58,
+      "entry_type": "rss",
+      "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "domains": ["theverge.com"],
+      "all_ai": true
+    },
+    {
+      "id": "wired_ai",
+      "name": "WIRED AI",
+      "tier": "media",
+      "enabled": true,
+      "priority": 55,
+      "entry_type": "rss",
+      "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "domains": ["wired.com"],
+      "all_ai": true
+    },
+    {
+      "id": "nyt_technology",
+      "name": "NYT Technology",
+      "tier": "media",
+      "enabled": true,
+      "priority": 57,
+      "entry_type": "rss",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "domains": ["nytimes.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "openai",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "gemini",
+          "llama",
+          "deepseek",
+          "grok",
+          "model",
+          "agent",
+          "generative",
+          "pentagon",
+          "copilot"
+        ],
+        "categories_any": ["Artificial Intelligence", "OpenAI Labs", "Anthropic AI LLC"]
+      }
+    },
+    {
+      "id": "ars_biz_it",
+      "name": "Ars Technica Biz & IT",
+      "tier": "media",
+      "enabled": true,
+      "priority": 56,
+      "entry_type": "rss",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "domains": ["arstechnica.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "openai",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "gemini",
+          "llama",
+          "deepseek",
+          "grok",
+          "model",
+          "agent",
+          "generative",
+          "gpu",
+          "nvidia",
+          "data center",
+          "chip"
+        ]
+      }
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "tier": "media",
+      "enabled": true,
+      "priority": 54,
+      "entry_type": "rss",
+      "feed_url": "https://www.engadget.com/rss.xml",
+      "domains": ["engadget.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "openai",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "gemini",
+          "llama",
+          "deepseek",
+          "grok",
+          "model",
+          "agent",
+          "generative",
+          "copilot",
+          "nvidia",
+          "robot"
+        ]
+      }
+    },
+    {
+      "id": "mit_technology_review_ai",
+      "name": "MIT Technology Review AI",
+      "tier": "media",
+      "enabled": true,
+      "priority": 59,
+      "entry_type": "rss",
+      "feed_url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "domains": ["technologyreview.com"],
+      "all_ai": true
+    },
+    {
+      "id": "fastcompany_ai",
+      "name": "Fast Company AI",
+      "tier": "media",
+      "enabled": true,
+      "priority": 53,
+      "entry_type": "rss",
+      "feed_url": "https://www.fastcompany.com/section/ai/rss",
+      "domains": ["fastcompany.com"],
+      "all_ai": true
+    },
+    {
+      "id": "fastcompany_technology",
+      "name": "Fast Company Technology",
+      "tier": "media",
+      "enabled": true,
+      "priority": 52,
+      "entry_type": "rss",
+      "feed_url": "https://www.fastcompany.com/technology/rss",
+      "domains": ["fastcompany.com"],
+      "ai_filters": {
+        "keywords_any": [
+          "ai",
+          "artificial intelligence",
+          "openai",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "gemini",
+          "llama",
+          "deepseek",
+          "grok",
+          "model",
+          "agent",
+          "generative",
+          "copilot",
+          "nvidia"
+        ]
+      }
+    }
+  ]
+}

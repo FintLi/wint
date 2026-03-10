@@ -1,0 +1,31 @@
+<view class="container">
+  <view class="card" wx:if="{{listing}}">
+    <view class="section-title">当前预约房源</view>
+    <view class="listing-title">{{listing.title}}</view>
+    <view class="meta-text">{{listing.village}} · {{listing.roomType}} · ¥{{listing.monthlyRent}}/月</view>
+    <view class="meta-text">{{listing.verificationLabel}}</view>
+  </view>
+
+  <view class="form-section">
+    <view class="form-label">姓名 *</view>
+    <input class="input" value="{{form.leadName}}" data-field="leadName" bindinput="onInput" placeholder="怎么称呼你" />
+
+    <view class="form-label" style="margin-top: 16rpx;">微信 / 手机 *</view>
+    <input class="input" value="{{form.contact}}" data-field="contact" bindinput="onInput" placeholder="方便联系你的方式" />
+
+    <view class="form-label" style="margin-top: 16rpx;">看房日期</view>
+    <picker class="picker" mode="date" value="{{form.preferredDate}}" bindchange="onDateChange">
+      <view>{{form.preferredDate}}</view>
+    </picker>
+
+    <view class="form-label" style="margin-top: 16rpx;">带看时段</view>
+    <picker class="picker" mode="selector" range="{{timeSlots}}" bindchange="onSlotChange">
+      <view>{{form.timeSlot}}</view>
+    </picker>
+
+    <view class="form-label" style="margin-top: 16rpx;">备注</view>
+    <textarea class="textarea" value="{{form.notes}}" data-field="notes" bindinput="onInput" placeholder="例如：几点下班、是否想同场看 2-3 套" />
+  </view>
+
+  <button class="btn-primary" bindtap="submitBooking">提交预约</button>
+</view>

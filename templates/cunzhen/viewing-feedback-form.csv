@@ -1,0 +1,2 @@
+submitted_at,appointment_id,lead_id,listing_id,showed_up,no_show_reason,satisfaction_level,blockers,next_action,deal_probability,notes
+2026-03-09T20:00:00+08:00,A-001,Q-001,L-001,到场,,高,价格,继续推进,高,示例数据
